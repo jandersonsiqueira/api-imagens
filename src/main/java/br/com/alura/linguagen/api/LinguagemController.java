@@ -27,9 +27,9 @@ public class LinguagemController {
     public Linguagem cadastrarLinguagem(@RequestBody Linguagem linguagem) {
         Linguagem linguagemSalva = repositorio.save(linguagem);
         return linguagemSalva;
-
+/*
     @DeleteMapping("/linguagens")
-    linguagem.delete(linguagem);
+    linguagem.delete(linguagem);*/
 
     
 
